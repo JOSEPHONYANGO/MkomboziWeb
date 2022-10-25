@@ -4,7 +4,7 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <div className="flex bg-[#F9FAFB] h-screen">
+    <div className="flex bg-[#F9FAFB] h-full">
       <SideBar />
       <div className="w-full">
         <Wrapper />
