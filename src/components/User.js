@@ -20,7 +20,6 @@ function User() {
               <tr class="border-b border=[#DEE2E6]">
                 <th class="font-sans text-left py-4 font-medium text-sm text-[#8392AB]">
                   <span>NAME</span>
-                  <span></span>
                 </th>
                 <th class="font-sans text-left py-4 font-medium text-sm text-[#8392AB]">
                   EMAIL
