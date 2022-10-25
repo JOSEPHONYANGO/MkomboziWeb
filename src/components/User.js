@@ -3,6 +3,8 @@ import AddUser from "./AddUser";
 import upchevron from "../imgs/up.png";
 import downchevron from "../imgs/down.png";
 import menu from "../imgs/menu.png";
+import right from "../imgs/right.png";
+import left from "../imgs/left.png";
 
 function User() {
   return (
@@ -15,7 +17,7 @@ function User() {
         <div className="flex justify-center ">
           <table class="table-fixed w-11/12 border-collapse">
             <thead>
-              <tr class="border-b-2 border=[#DEE2E6]">
+              <tr class="border-b border=[#DEE2E6]">
                 <th class="font-sans text-left py-4 font-medium text-sm text-[#8392AB]">
                   <span>NAME</span>
                   <span></span>
@@ -33,7 +35,7 @@ function User() {
               </tr>
             </thead>
             <tbody>
-              <tr class="border-b-2 border=[#DEE2E6]">
+              <tr class="border-b border=[#DEE2E6]">
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
                   Stephanie Mboya
                 </td>
@@ -47,10 +49,10 @@ function User() {
                   SuperAdmin
                 </td>
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
-                  :
+                  <img src={menu} className="h-3.5 cursor-pointer" />
                 </td>
               </tr>
-              <tr class="border-b-2 border=[#DEE2E6]">
+              <tr class="border-b border=[#DEE2E6]">
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
                   Stephanie Mboya
                 </td>
@@ -64,10 +66,10 @@ function User() {
                   SuperAdmin
                 </td>
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
-                  :
+                  <img src={menu} className="h-3.5 cursor-pointer" />
                 </td>
               </tr>
-              <tr class="border-b-2 border=[#DEE2E6]">
+              <tr class="border-b border=[#DEE2E6]">
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
                   Stephanie Mboya
                 </td>
@@ -81,10 +83,10 @@ function User() {
                   SuperAdmin
                 </td>
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
-                  :
+                  <img src={menu} className="h-3.5 cursor-pointer" />
                 </td>
               </tr>
-              <tr class="border-b-2 border=[#DEE2E6]">
+              <tr class="border-b border=[#DEE2E6]">
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
                   Stephanie Mboya
                 </td>
@@ -98,10 +100,10 @@ function User() {
                   SuperAdmin
                 </td>
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
-                  :
+                  <img src={menu} className="h-3.5 cursor-pointer" />
                 </td>
               </tr>
-              <tr class="border-b-2 border=[#DEE2E6]">
+              <tr class="border-b border=[#DEE2E6]">
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
                   Stephanie Mboya
                 </td>
@@ -115,10 +117,10 @@ function User() {
                   SuperAdmin
                 </td>
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
-                  :
+                  <img src={menu} className="h-3.5 cursor-pointer" />
                 </td>
               </tr>
-              <tr class="border-b-2 border=[#DEE2E6]">
+              <tr class="border-b border=[#DEE2E6]">
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
                   Stephanie Mboya
                 </td>
@@ -132,10 +134,10 @@ function User() {
                   SuperAdmin
                 </td>
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
-                  :
+                  <img src={menu} className="h-3.5 cursor-pointer" />
                 </td>
               </tr>
-              <tr class="border-b-2 border=[#DEE2E6]">
+              <tr class="border-b border=[#DEE2E6]">
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
                   Stephanie Mboya
                 </td>
@@ -149,7 +151,7 @@ function User() {
                   SuperAdmin
                 </td>
                 <td class="font-sans text-left py-4 text-sm  text-[#8392AB]">
-                  :
+                  <img src={menu} className="h-3.5 cursor-pointer" />
                 </td>
               </tr>
             </tbody>
@@ -168,15 +170,55 @@ function User() {
               <span className="text-sm text-[#8392AB]">entries per page</span>
             </p>
           </div>
-          <div className="">
-            <a href="#">&laquo;</a>
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <a href="#">6</a>
-            <a href="#">&raquo;</a>
+          <div className="flex">
+            <a href="#">
+              <img
+                className="mr-1 w-8	border rounded-full shadow-sm"
+                src={left}
+              />
+            </a>
+            <a
+              className="shadow-sm mx-1 pt-1 text-center text-sm	w-8 h-8 border rounded-full text-[#8392AB]"
+              href="#"
+            >
+              1
+            </a>
+            <a
+              className="shadow-sm mx-1 pt-1 text-center text-sm	w-8 h-8 border rounded-full text-[#8392AB]"
+              href="#"
+            >
+              2
+            </a>
+            <a
+              className="shadow-sm mx-1 pt-1 text-center text-sm	w-8 h-8 border rounded-full text-[#8392AB]"
+              href="#"
+            >
+              3
+            </a>
+            <a
+              className="shadow-sm mx-1 pt-1 text-center text-sm	w-8 h-8 border rounded-full text-[#8392AB]"
+              href="#"
+            >
+              4
+            </a>
+            <a
+              className="shadow-sm mx-1 pt-1 text-center text-sm	w-8 h-8 border rounded-full text-[#8392AB]"
+              href="#"
+            >
+              5
+            </a>
+            <a
+              className="shadow-sm mx-1 pt-1 text-center text-sm	w-8 h-8 border rounded-full text-[#8392AB]"
+              href="#"
+            >
+              6
+            </a>
+            <a href="#">
+              <img
+                className="shadow-sm ml-1 w-8	border rounded-full"
+                src={right}
+              />
+            </a>
           </div>
         </div>
       </div>
